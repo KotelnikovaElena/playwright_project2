@@ -1,4 +1,4 @@
-# playwright_project2
+# playwright_project2 #
 
 Автотесты для функции isValidNameLength, написанной на js с помощью фреймворка playwright.
 Использовала тест-дизайн (граничные значения, классы эквивалентности)
