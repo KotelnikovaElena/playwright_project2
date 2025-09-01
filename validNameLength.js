@@ -15,10 +15,11 @@ function isValidNameLength(lastName){
     // Если все значения "ложные" (falsy), он возвращает последнее из них.
     const name = lastName || "";//если lastName будет false (false, 0, -0, 0n, "", null, undefined, NaN), то присвоит переменной name "" пустую строку
     console.log(`фамилия, которую вы ввели: ${name} - имеет кол-во символов равное ${name.length}`);
-    if (name.length >= 3 && name.length < 20){
+    if (name.length >= 3 && name.length <= 20){
         return true
     } 
     return false;
 }
 
-console.log(isValidNameLength("Котельникова"));
+// console.log(isValidNameLength("Котельникова"));
+module.exports = { isValidNameLength };
