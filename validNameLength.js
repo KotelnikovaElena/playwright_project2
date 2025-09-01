@@ -9,9 +9,13 @@
 // false - если длина меньше 3 или больше 20 символов
 
 function isValidNameLength(lastName){
-    console.log(`фамилия, которую вы ввели: ${lastName} - имеет кол-во символов равное ${lastName.length}`);
     console.log(typeof lastName);
-    if (lastName.length >= 3 && lastName.length < 20){
+    //В JavaScript он работает не как простой булевый оператор. 
+    // Он возвращает первое "истинное" (truthy) значение из сравниваемых. 
+    // Если все значения "ложные" (falsy), он возвращает последнее из них.
+    const name = lastName || "";//если lastName будет false (false, 0, -0, 0n, "", null, undefined, NaN), то присвоит переменной name "" пустую строку
+    console.log(`фамилия, которую вы ввели: ${name} - имеет кол-во символов равное ${name.length}`);
+    if (name.length >= 3 && name.length < 20){
         return true
     } 
     return false;
