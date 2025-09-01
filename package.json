@@ -1,0 +1,23 @@
+{
+  "name": "playwright_project2",
+  "version": "1.0.0",
+  "description": "Автотесты для функции, Еаписанной на js с помощью фреймворка playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KotelnikovaElena/playwright_project2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KotelnikovaElena/playwright_project2/issues"
+  },
+  "homepage": "https://github.com/KotelnikovaElena/playwright_project2#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
