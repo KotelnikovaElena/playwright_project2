@@ -1,6 +1,6 @@
 # playwright_project2 #
 
-Автотесты для функции isValidNameLength, написанной на js с помощью фреймворка playwright.
+Автотесты для функции isValidNameLength, написанной на javascript с помощью фреймворка playwright.
 Использовала тест-дизайн (граничные значения, классы эквивалентности)
 Учуcь писать тесты на фреймворке playwright.
 Это unit-тесты для простой функции validNameLength.js.
